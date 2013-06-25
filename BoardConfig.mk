@@ -30,4 +30,4 @@
 TARGET_OTA_ASSERT_DEVICE := jfltetmo
 
 # Kernel
-TARGET_KERNEL_CONFIG         := jf_can_defconfig
+TARGET_KERNEL_CONFIG         := jf_tmo_defconfig
