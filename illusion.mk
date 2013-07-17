@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES +=  \
     vendor/illusion/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_DEVICE := jfltetmo \
+    PRODUCT_BRAND := samsung \
+    PRODUCT_MODEL := SGH-M919 \
+    PRODUCT_MANUFACTURER := Samsung \
     BUILD_NUMBER=M919UVUAMDB \
     PRODUCT_NAME=illusion_jfltetmo \
     TARGET_DEVICE=jfltetmo \
