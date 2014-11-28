@@ -27,7 +27,4 @@
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jfltetmo
-
-# Kernel
-TARGET_KERNEL_CONFIG         := jf_can_defconfig
+TARGET_OTA_ASSERT_DEVICE := jfltetmo,jflte
